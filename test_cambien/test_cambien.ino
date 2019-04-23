@@ -33,14 +33,6 @@ void speed_calculation(void)
   time2 = micros();
   time3 = (time2 - time1)/1000000;
   spd = b / time3;
-  //Serial.print("Gia tri cua i = ");
-  //Serial.println(i); //Nếu sensor = 1 thì không phát hiện vật cản, nếu sensor = 0 thì phát hiện vật cản.
-  /*
-  Serial.print("Bat dau: ");
-  Serial.println(time1);
-  Serial.print("Ket thuc ");
-  Serial.println(time2);
-  */
   Serial.print("Tong thoi gian = ");
   Serial.println(time3);
   Serial.print("Toc do trung binh ");
